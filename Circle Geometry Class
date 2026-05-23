@@ -1,0 +1,7 @@
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+    def circumference(self):
+        print(self.radius * 2 * 3,14)
+circ1 = Circle(9)
+print(circ1.circumference())
