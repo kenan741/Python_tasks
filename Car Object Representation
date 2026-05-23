@@ -1,0 +1,8 @@
+class Car:
+    def __init__(self, brand, year):
+        self.brand = brand
+        self.year = year
+
+    def about_car(self):
+        print(f"This car is a {self.brand} from {self.year}")
+example = Car("BMW M5 F90", 2023)
