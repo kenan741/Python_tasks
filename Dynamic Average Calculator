@@ -1,0 +1,7 @@
+def num_average(num1, num2, *args):
+    total = num1 + num2
+    for i in range(len(args)):
+        total += args[i]
+    average = total / (len(args) + 2)
+    print(average)
+print(num_average(2, 5, 8, 30, 50, 48, 39, 46, 3, 100))
